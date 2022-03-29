@@ -1,8 +1,6 @@
 #
 # .zshrc
 #
-# @author Jeff Geerling
-#
 
 # Colors.
 unset LSCOLORS
@@ -54,6 +52,7 @@ alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %
 
 # Completions.
 autoload -Uz compinit && compinit
+
 # Case insensitive.
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
 

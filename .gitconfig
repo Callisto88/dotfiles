@@ -1,8 +1,8 @@
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+  name = Cyril de Bourgues
+  email = cyril@debourgues.com
 [core]
-  editor = vi
+  editor = vim
   excludesfile = ~/.gitignore
   autocrlf = input
 [color]
@@ -13,7 +13,7 @@
 [init]
   defaultBranch = master
 [web]
-  browser = google-chrome
+  browser = opera
 [credential]
   helper = osxkeychain
 [push]
